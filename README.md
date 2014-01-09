@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-dotfiles
+Just my dotfiles
