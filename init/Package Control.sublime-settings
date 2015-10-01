@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Autoprefixer",
+		"Autotools",
+		"Color Highlighter",
+		"Emmet",
+		"JSCS-Formatter",
+		"JSHint Gutter",
+		"SideBarEnhancements",
+		"SublimeLinter"
+	]
+}
