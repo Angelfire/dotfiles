@@ -1,5 +1,4 @@
 # alias for programs
-alias servep="python -m SimpleHTTPServer"
 alias subl='open -a "Sublime Text"'
 
 # chdir
