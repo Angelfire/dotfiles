@@ -6,9 +6,3 @@ alias subl='open -a "Sublime Text"'
 alias .="cd .."
 alias ..="cd ../.."
 alias ...="cd ../../.."
-
-# combine mkdir and cd
-mkcd () {
-  mkdir "$1"
-  cd "$1"
-}
