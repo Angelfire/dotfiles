@@ -63,10 +63,11 @@ PS1="\[\e]2;$PWD\[\a\]\[\e]1;\]$(basename "$(dirname "$PWD")")/\W\[\a\]\[${BOLD}
 export NVM_DIR="/Users/Skynet/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# mkvirtualenv - virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
 # Now when you login to your machine from a console .bashrc will be called.
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
-
-# alias for programs
-alias subl='open -a "Sublime Text"'
