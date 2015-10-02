@@ -9,10 +9,21 @@
 		"Autoprefixer",
 		"Autotools",
 		"Color Highlighter",
+		"DocBlockr",
+		"Ember.js Snippets",
 		"Emmet",
+		"Handlebars",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery",
 		"JSCS-Formatter",
 		"JSHint Gutter",
+		"LESS",
+		"Package Control",
+		"Sass",
+		"Schemr",
+		"SCSS Snippets",
 		"SideBarEnhancements",
-		"SublimeLinter"
+		"SublimeLinter",
+		"Theme - Flatland"
 	]
 }
