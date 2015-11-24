@@ -176,3 +176,11 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#################
+## Node project
+#################
+node_modules
+dist
+.tmp
+bower_components
