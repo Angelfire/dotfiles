@@ -1,0 +1,15 @@
+{
+  "extensions.ignoreRecommendations": false,
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "vue-html": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula"
+}
