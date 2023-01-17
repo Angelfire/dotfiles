@@ -4,6 +4,11 @@
   "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "editor.stickyScroll.enabled": true
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
       "javascript": "javascriptreact",
