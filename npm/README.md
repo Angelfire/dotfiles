@@ -10,6 +10,5 @@
 npm i -g \
 npx \
 eslint \
-gatsby-cli \
 typescript
 ```
