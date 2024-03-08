@@ -1,6 +1,6 @@
 # ~dotfiles
 
-![dotfiles](https://user-images.githubusercontent.com/315504/89598645-f2126180-d822-11ea-9e46-c2a8cc5f6eb8.png)
+![dotfiles](https://github.com/Angelfire/dotfiles/assets/315504/4a3dbee9-1b03-4948-888a-8346c60e335e)
 
 ## Fundamental
 
