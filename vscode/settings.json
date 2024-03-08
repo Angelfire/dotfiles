@@ -1,22 +1,80 @@
 {
+    "editor.renderWhitespace": "all",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
     "editor.fontLigatures": true,
-    "editor.guides.bracketPairs": true,
-    "editor.renderWhitespace": "all",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.linkedEditing": true,
-    "editor.scrollbar.vertical": "auto",
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "eslint.format.enable": true,
-    "symbols.hidesExplorerArrows": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "symbols",
-    "workbench.sideBar.location": "right",
+    "editor.formatOnSave": true,
     "editor.inlineSuggest.enabled": true,
-}
+    "editor.linkedEditing": true,
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.fontFamily": "'Cascadia Code PL', Menlo, Monaco, 'Courier New', monospace",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.unusedImports": "always",
+      "source.organizeImports": "never"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslintrc.json, .gitignore, next.config.js, package-lock.json, postcss.config.js, .prettierrc, webpack.config.js, tailwind.config.js, tsconfig.json"
+    },
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.env.osx": {},
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Pace Dark",
+    "[scss]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.tabSize": 2
+    },
+    "[javascript]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.formatOnSave": true,
+      "editor.quickSuggestions": {
+        "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
+      "editor.tabSize": 2
+    },
+    "[vue]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.tabSize": 2
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.documentSelectors": ["**/*.astro"],
+    "[astro]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+    

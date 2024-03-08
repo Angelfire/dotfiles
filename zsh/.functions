@@ -1,26 +1,54 @@
 #!/usr/bin/env bash
 
-# Create a new directory and enter it
+# Function: mkcd
+# Description: Creates a directory and changes into it.
+# Parameters:
+#   - $@: The name(s) of the directory/directories to be created.
+# Usage: mkcd <directory_name>
 function mkcd() {
 	mkdir -p "$@" && cd "$_";
 }
 
-# Starts an HTTP server using Python 3's http.server module from a directory and optionally specifying the port
-#
-# Examples
-# httpServer
-# httpServer 3000
+# Function: httpserver
+# Description: Starts a simple HTTP server using Python 3's built-in http.server module.
+# Parameters:
+#   - port (optional): The port number to run the server on. Default is 8000.
 function httpserver() {
-  local port="${1:-8000}"
-  python3 -m http.server "$port"
+	local port="${1:-8000}"
+	python3 -m http.server "$port"
 }
 
-# `o` with no arguments opens the current directory, otherwise opens the given
-# location
+# Function: o
+# Description: Opens a file or directory using the default application.
+# Parameters:
+#   - $@ (optional): The file or directory path to open. If not provided, the current directory will be opened.
 function o() {
 	if [ $# -eq 0 ]; then
 		open .;
 	else
 		open "$@";
 	fi;
+}
+
+# Function: takegit
+# Description: Clones a Git repository and navigates into the cloned directory.
+# Parameters:
+#   $1 - The URL of the Git repository to clone.
+function takegit() {
+	git clone "$1"
+	cd "$(basename ${1%%.git})"
+}
+
+# Function: takeurl
+# Description: Downloads a tarball from a given URL, extracts it, and navigates into the extracted directory.
+# Parameters:
+#   - $1: The URL of the tarball to download and extract.
+function takeurl() {
+	local data thedir
+	data="$(mktemp)"
+	curl -L "$1" > "$data"
+	tar xf "$data"
+	thedir="$(tar tf "$data" | head -n 1)"
+	rm "$data"
+	cd "$thedir"
 }
