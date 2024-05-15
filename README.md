@@ -1,6 +1,8 @@
 # ~dotfiles
 
 ![dotfiles](https://github.com/Angelfire/dotfiles/assets/315504/4a3dbee9-1b03-4948-888a-8346c60e335e)
+![neofetch](https://github.com/Angelfire/dotfiles/assets/315504/3b83e3ab-d361-4063-bb17-1bf9516b4518)
+
 
 ## Fundamental
 
