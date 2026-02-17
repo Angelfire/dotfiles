@@ -18,8 +18,3 @@
 
 1. Set zsh shell as default with `chsh -s /bin/zsh`
 2. Install Oh My Zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-
-## NVM
-
-1. Install nvm `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
-2. Install NPM global packages `~/dotfiles/npm`
