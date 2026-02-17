@@ -1,7 +1,9 @@
 # Brew
 
 ## Backup packages
-`brew leaves > ~/Projects/dotfiles/brew/packages`
+
+`brew leaves > ~/Developer/dotfiles/brew/packages`
 
 ## Install packages
-`cat ~/Projects/dotfiles/brew/packages | xargs brew install`
+
+`cat ~/Developer/dotfiles/brew/packages | xargs brew install`

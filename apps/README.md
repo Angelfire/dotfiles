@@ -1,3 +1,3 @@
 # Installed Apps
 
-`ls /Applications > ~/Projects/dotfiles/apps/installed-apps`
+`ls /Applications > ~/Developer/dotfiles/apps/installed-apps`

@@ -1,5 +1,11 @@
-mongodb
-pyenv
-watchman
-yarn
-zsh
+anomalyco/tap/opencode
+fnm
+imagemagick
+jq
+lazygit
+mole
+ollama
+php
+pnpm
+rust
+starship

@@ -1,0 +1,39 @@
+# ============================================
+# Ghostty Terminal - Complete Configuration
+# ============================================
+# File: ~/.config/ghostty/config
+# View options: ghostty +show-config --default --docs
+# Reference: https://ghostty.org/docs/config/reference
+
+# --- Typography ---
+font-family = FiraCode Nerd Font
+font-thicken = true
+
+# --- Theme and Colors ---
+theme = Atom One Dark
+
+# --- Window and Appearance ---
+background-opacity = 0.85
+macos-icon = retro
+window-padding-x = 10
+window-padding-y = 10
+split-divider-color = #3551f3
+unfocused-split-opacity = 0.30
+unfocused-split-fill = #101113
+
+# --- Cursor ---
+cursor-style = bar
+cursor-opacity = 0.8
+
+# --- Mouse ---
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# --- Security ---
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+
+
+# --- Performance ---
+# Generous scrollback (25MB)
+scrollback-limit = 25000000
