@@ -1,6 +1,5 @@
 # ~dotfiles
-
-![dotfiles](https://github.com/Angelfire/dotfiles/assets/315504/4a3dbee9-1b03-4948-888a-8346c60e335e)
+<img width="912" height="740" alt="ghostty" src="https://github.com/user-attachments/assets/2ac0890f-6163-4acd-8d4a-b9cdd4104754" />
 ![neofetch](https://github.com/Angelfire/dotfiles/assets/315504/3b83e3ab-d361-4063-bb17-1bf9516b4518)
 
 
