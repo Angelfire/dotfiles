@@ -15,11 +15,13 @@ theme = Atom One Dark
 # --- Window and Appearance ---
 background-opacity = 0.85
 macos-icon = retro
-window-padding-x = 10
-window-padding-y = 10
 split-divider-color = #3551f3
 unfocused-split-opacity = 0.30
 unfocused-split-fill = #101113
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+window-save-state = always
 
 # --- Cursor ---
 cursor-style = bar
@@ -32,7 +34,6 @@ copy-on-select = clipboard
 # --- Security ---
 clipboard-paste-protection = true
 clipboard-paste-bracketed-safe = true
-
 
 # --- Performance ---
 # Generous scrollback (25MB)
