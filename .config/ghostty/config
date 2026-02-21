@@ -23,6 +23,15 @@ window-padding-y = 10
 window-padding-balance = true
 window-save-state = always
 
+# --- Keybinds ---
+keybind = super+f=toggle_fullscreen
+keybind = super+alt+l=new_split:right
+keybind = super+alt+j=new_split:down
+keybind = super+alt+left=goto_split:left
+keybind = super+alt+right=goto_split:right
+keybind = super+alt+up=goto_split:up
+keybind = super+alt+down=goto_split:down
+
 # --- Cursor ---
 cursor-style = bar
 cursor-opacity = 0.8
