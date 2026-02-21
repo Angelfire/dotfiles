@@ -5,6 +5,33 @@
 # View options: ghostty +show-config --default --docs
 # Reference: https://ghostty.org/docs/config/reference
 
+
+# --- THEME ---
+# --- Base ---
+background = #1c2433
+foreground = #f0f3f8
+cursor-color = #ff784f
+selection-background = #334c82
+selection-foreground = #ffffff
+
+# --- ANSI 0-15 ---
+palette = 0=#2a303e
+palette = 1=#ef4444
+palette = 2=#7f8ea3
+palette = 3=#e05d38
+palette = 4=#5aa2ff
+palette = 5=#86a7c8
+palette = 6=#7db7e8
+palette = 7=#d9dee7
+palette = 8=#9aa4b2
+palette = 9=#ff8a80
+palette = 10=#a7b4c6
+palette = 11=#ff9a6a
+palette = 12=#8cc2ff
+palette = 13=#bfdcff
+palette = 14=#9fd3ff
+palette = 15=#ffffff
+
 # --- Typography ---
 font-family = FiraCode Nerd Font
 font-thicken = true
@@ -15,9 +42,8 @@ theme = Atom One Dark
 # --- Window and Appearance ---
 background-opacity = 0.85
 macos-icon = retro
-split-divider-color = #3551f3
-unfocused-split-opacity = 0.30
-unfocused-split-fill = #101113
+split-divider-color = #5fa8d3
+unfocused-split-opacity = 0.15
 window-padding-x = 10
 window-padding-y = 10
 window-padding-balance = true
