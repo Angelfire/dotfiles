@@ -4,32 +4,34 @@
 # File: ~/.config/ghostty/config
 # View options: ghostty +show-config --default --docs
 # Reference: https://ghostty.org/docs/config/reference
+# Ghostty style: https://ghostty-style.vercel.app/
+# Ghostty config: https://ghostty.zerebos.com/
 
 
-# --- THEME ---
 # --- Base ---
-background = #1c2433
-foreground = #f0f3f8
-cursor-color = #ff784f
-selection-background = #334c82
+background = #21252b
+foreground = #abb2bf
+selection-background = #3e4451
 selection-foreground = #ffffff
 
-# --- ANSI 0-15 ---
-palette = 0=#2a303e
-palette = 1=#ef4444
-palette = 2=#7f8ea3
-palette = 3=#e05d38
-palette = 4=#5aa2ff
-palette = 5=#86a7c8
-palette = 6=#7db7e8
-palette = 7=#d9dee7
-palette = 8=#9aa4b2
-palette = 9=#ff8a80
-palette = 10=#a7b4c6
-palette = 11=#ff9a6a
-palette = 12=#8cc2ff
-palette = 13=#bfdcff
-palette = 14=#9fd3ff
+# --- ANSI 0-7 (normal) ---
+palette = 0=#282c34
+palette = 1=#e06c75
+palette = 2=#98c379
+palette = 3=#e5c07b
+palette = 4=#61afef
+palette = 5=#c678dd
+palette = 6=#56b6c2
+palette = 7=#abb2bf
+
+# --- ANSI 8-15 (bright) ---
+palette = 8=#5c6370
+palette = 9=#ff7a86
+palette = 10=#b4f08c
+palette = 11=#ffd68a
+palette = 12=#7cc6ff
+palette = 13=#d19aff
+palette = 14=#7de3f0
 palette = 15=#ffffff
 
 # --- Typography ---
@@ -59,8 +61,10 @@ keybind = super+alt+up=goto_split:up
 keybind = super+alt+down=goto_split:down
 
 # --- Cursor ---
-cursor-style = bar
+cursor-color = #ffffff
 cursor-opacity = 0.8
+cursor-style = bar
+cursor-text = #21252b
 
 # --- Mouse ---
 mouse-hide-while-typing = true
