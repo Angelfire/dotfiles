@@ -9,29 +9,29 @@
 
 
 # --- Base ---
-background = #21252b
-foreground = #abb2bf
-selection-background = #3e4451
+background = #1c2433
+foreground = #e5eaf3
+selection-background = #334c82
 selection-foreground = #ffffff
 
 # --- ANSI 0-7 (normal) ---
-palette = 0=#282c34
-palette = 1=#e06c75
-palette = 2=#98c379
-palette = 3=#e5c07b
-palette = 4=#61afef
-palette = 5=#c678dd
-palette = 6=#56b6c2
-palette = 7=#abb2bf
+palette = 0=#2a303e
+palette = 1=#ef4444
+palette = 2=#2f8f83
+palette = 3=#e05d38
+palette = 4=#4f79b4
+palette = 5=#7c6fd1
+palette = 6=#2f6f9f
+palette = 7=#d8dee9
 
 # --- ANSI 8-15 (bright) ---
-palette = 8=#5c6370
-palette = 9=#ff7a86
-palette = 10=#b4f08c
-palette = 11=#ffd68a
-palette = 12=#7cc6ff
-palette = 13=#d19aff
-palette = 14=#7de3f0
+palette = 8=#3d4354
+palette = 9=#ff6b6b
+palette = 10=#5fd1c2
+palette = 11=#ff9e64
+palette = 12=#7db3ff
+palette = 13=#b39df3
+palette = 14=#4fb3ff
 palette = 15=#ffffff
 
 # --- Typography ---
@@ -61,10 +61,10 @@ keybind = super+alt+up=goto_split:up
 keybind = super+alt+down=goto_split:down
 
 # --- Cursor ---
-cursor-color = #ffffff
+cursor-color = #e05d38
 cursor-opacity = 0.8
 cursor-style = bar
-cursor-text = #21252b
+cursor-text = #1c2433
 
 # --- Mouse ---
 mouse-hide-while-typing = true
