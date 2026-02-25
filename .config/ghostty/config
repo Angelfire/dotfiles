@@ -7,7 +7,7 @@
 # Ghostty style: https://ghostty-style.vercel.app/
 # Ghostty config: https://ghostty.zerebos.com/
 
-
+# --- Theme and Colors ---
 # --- Base ---
 background = #1c2433
 foreground = #e5eaf3
@@ -24,6 +24,9 @@ palette = 5=#7c6fd1
 palette = 6=#2f6f9f
 palette = 7=#d8dee9
 
+# --- Typography ---
+font-family = FiraCode Nerd Font
+
 # --- ANSI 8-15 (bright) ---
 palette = 8=#3d4354
 palette = 9=#ff6b6b
@@ -33,13 +36,6 @@ palette = 12=#7db3ff
 palette = 13=#b39df3
 palette = 14=#4fb3ff
 palette = 15=#ffffff
-
-# --- Typography ---
-font-family = FiraCode Nerd Font
-font-thicken = true
-
-# --- Theme and Colors ---
-theme = Atom One Dark
 
 # --- Window and Appearance ---
 background-opacity = 0.85
