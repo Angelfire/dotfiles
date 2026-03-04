@@ -9,38 +9,38 @@
 
 # --- Theme and Colors ---
 # --- Base ---
-background = #1c2433
-foreground = #e5eaf3
-selection-background = #334c82
+background = #111827
+foreground = #cbd5e1
+selection-background = #334155
 selection-foreground = #ffffff
 
 # --- ANSI 0-7 (normal) ---
-palette = 0=#2a303e
-palette = 1=#ef4444
-palette = 2=#2f8f83
-palette = 3=#e05d38
-palette = 4=#4f79b4
-palette = 5=#7c6fd1
-palette = 6=#2f6f9f
-palette = 7=#d8dee9
+palette = 0=#1e293b
+palette = 1=#dc2626
+palette = 2=#059669
+palette = 3=#d97706
+palette = 4=#2563eb
+palette = 5=#9333ea
+palette = 6=#0891b2
+palette = 7=#cbd5e1
+
+# --- ANSI 8-15 (bright) ---
+palette = 8=#475569
+palette = 9=#ef4444
+palette = 10=#34d399
+palette = 11=#fde68a
+palette = 12=#60a5fa
+palette = 13=#c084fc
+palette = 14=#22d3ee
+palette = 15=#f8fafc
 
 # --- Typography ---
 font-family = FiraCode Nerd Font
 
-# --- ANSI 8-15 (bright) ---
-palette = 8=#3d4354
-palette = 9=#ff6b6b
-palette = 10=#5fd1c2
-palette = 11=#ff9e64
-palette = 12=#7db3ff
-palette = 13=#b39df3
-palette = 14=#4fb3ff
-palette = 15=#ffffff
-
 # --- Window and Appearance ---
 background-opacity = 0.85
 macos-icon = retro
-split-divider-color = #5fa8d3
+split-divider-color = #60a5fa
 unfocused-split-opacity = 0.15
 window-padding-x = 10
 window-padding-y = 10
@@ -57,10 +57,10 @@ keybind = super+alt+up=goto_split:up
 keybind = super+alt+down=goto_split:down
 
 # --- Cursor ---
-cursor-color = #e05d38
+cursor-color = #3B82F6
 cursor-opacity = 0.8
 cursor-style = bar
-cursor-text = #1c2433
+cursor-text = #111827
 
 # --- Mouse ---
 mouse-hide-while-typing = true
