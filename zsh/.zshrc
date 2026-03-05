@@ -7,11 +7,6 @@ ggpull() {
   git pull --rebase origin "${1:-$(git branch --show-current)}"
 }
 
-# Push: defaults to current branch
-ggpush() {
-  git push origin "$(git branch --show-current)"
-}
-
 # Function: mkcd
 # Description: Creates a directory and changes into it.
 # Parameters:
@@ -38,6 +33,7 @@ alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gsw='git switch'
 alias gswc='git switch -c'
+alias ggpush='git push origin $(git branch --show-current)'
 
 #===========
 # Paths

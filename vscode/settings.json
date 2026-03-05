@@ -1,80 +1,87 @@
 {
-    "editor.renderWhitespace": "all",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.fontFamily": "'Cascadia Code PL', Menlo, Monaco, 'Courier New', monospace",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.mdx": "markdown"
+  },
+  "[scss]": {
     "editor.formatOnSave": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.linkedEditing": true,
-    "editor.guides.bracketPairs": true,
-    "editor.stickyScroll.enabled": true,
-    "editor.fontFamily": "'Cascadia Code PL', Menlo, Monaco, 'Courier New', monospace",
-    "editor.quickSuggestions": {
-      "strings": true
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
-      "source.unusedImports": "always",
-      "source.organizeImports": "never"
-    },
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.patterns": {
-        "package.json": ".eslintrc.json, .gitignore, next.config.js, package-lock.json, postcss.config.js, .prettierrc, webpack.config.js, tailwind.config.js, tsconfig.json"
-    },
-    "workbench.sideBar.location": "right",
-    "terminal.integrated.env.osx": {},
-    "symbols.hidesExplorerArrows": false,
-    "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Pace Dark",
-    "[scss]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-      "editor.tabSize": 2
-    },
-    "[javascript]": {
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.formatOnSave": true,
-      "editor.quickSuggestions": {
-        "strings": true
-      },
-      "editor.suggest.insertMode": "replace",
-      "editor.tabSize": 2
-    },
-    "[vue]": {
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.tabSize": 2
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.documentSelectors": ["**/*.astro"],
-    "[astro]": {
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
-  }
-    
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[astro]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Pace Dark",
+  "workbench.sideBar.location": "right",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "editor.inlineSuggest.enabled": true,
+  "prettier.documentSelectors": ["**/*.astro"],
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
+  "symbols.hidesExplorerArrows": false,
+  "terminal.integrated.env.osx": {},
+  "editor.formatOnSave": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslintrc.json, .gitignore, next.config.js, package-lock.json, postcss.config.js, .prettierrc"
+  },
+  "settingsSync.ignoredSettings": [],
+  "settingsSync.ignoredExtensions": [],
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "chat.mcp.gallery.enabled": true,
+  "swift.debugger.debugAdapter": "auto",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+}

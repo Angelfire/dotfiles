@@ -9,3 +9,7 @@ Plugins and settings are synced via GitHub account:
 ## settings.json
 
 `$HOME/Library/Application Support/Code/User/settings.json`
+
+## Theme
+
+CMD + Shit + P, type theme, choose _Pace Theme_
