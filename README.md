@@ -1,13 +1,17 @@
 # ~dotfiles
+
 <img width="912" height="740" alt="ghostty" src="https://github.com/user-attachments/assets/2ac0890f-6163-4acd-8d4a-b9cdd4104754" />
 
 ## Fundamental
 
-1. Install Chrome, VSCode, Warp
-2. Install [Aerial Screensaver](https://github.com/JohnCoates/Aerial)
-3. Install app `~/dotfiles/apps`
+1. Install [Chrome](https://www.google.com/chrome/), [VSCode](https://code.visualstudio.com/), [Ghostty](https://ghostty.org/download)
+2. Install apps `~/dotfiles/apps`
+3. Install brew packages `~/dotfiles/brew`
+4. Install [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ## Configure Git
+
+> (If not available) Install Git through Xcode Command Line Tools `xcode-select --install`
 
 ## Brew
 
@@ -17,4 +21,4 @@
 ## ZSH
 
 1. Set zsh shell as default with `chsh -s /bin/zsh`
-2. Install Oh My Zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+2. Install **Starship** prompt `brew install starship` and use [Nerd Font Symbols Preset](https://starship.rs/presets/nerd-font)

@@ -1,4 +1,5 @@
 anomalyco/tap/opencode
+bjarneo/cliamp/cliamp
 fnm
 imagemagick
 jq
@@ -9,3 +10,4 @@ php
 pnpm
 rust
 starship
+uv
