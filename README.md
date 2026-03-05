@@ -1,6 +1,6 @@
 # ~dotfiles
 
-<img width="912" height="740" alt="ghostty" src="https://github.com/user-attachments/assets/2ac0890f-6163-4acd-8d4a-b9cdd4104754" />
+<img width="1361" height="850" alt="Ghostty + Cliamp" src="https://github.com/user-attachments/assets/ad0cbe7f-e295-4487-be76-e08e86c94118" />
 
 ## Fundamental
 
