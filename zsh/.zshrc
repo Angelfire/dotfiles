@@ -36,6 +36,8 @@ function takegit() {
 alias gst='git status'
 alias gstl='git stash list'
 alias gstp='git stash pop'
+alias gsw='git switch'
+alias gswc='git switch -c'
 
 #===========
 # Paths
