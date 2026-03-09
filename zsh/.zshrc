@@ -1,79 +1,30 @@
-#===========
-# Functions
-#===============
+# Shell extensions
+[[ -f "$HOME/.zsh/aliases.zsh" ]] && source "$HOME/.zsh/aliases.zsh"
+[[ -f "$HOME/.zsh/functions.zsh" ]] && source "$HOME/.zsh/functions.zsh"
+[[ -f "$HOME/.zsh/completion.zsh" ]] && source "$HOME/.zsh/completion.zsh"
 
-# Pull: defaults to current branch if no argument is given
-ggpull() {
-  git pull --rebase origin "${1:-$(git branch --show-current)}"
-}
-
-# Function: mkcd
-# Description: Creates a directory and changes into it.
-# Parameters:
-#   - $@: The name(s) of the directory/directories to be created.
-# Usage: mkcd <directory_name>
-function mkcd() {
-	mkdir -p "$@" && cd "$_";
-}
-
-# Function: takegit
-# Description: Clones a Git repository and navigates into the cloned directory.
-# Parameters:
-#   $1 - The URL of the Git repository to clone.
-function takegit() {
-	git clone "$1"
-	cd "$(basename ${1%%.git})"
-}
-
-#===========
-# Aliases
-#===============
-alias gst='git status'
-alias gstl='git stash list'
-alias gstp='git stash pop'
-alias gsw='git switch'
-alias gswc='git switch -c'
-alias ggpush='git push origin $(git branch --show-current)'
-
-#===========
-# Paths
-#===============
-export PATH="$PNPM_HOME:$PATH"
-
-### NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Automatic switch for NVM
-autoload -U add-zsh-hook
-load-nvmrc() {
-  local node_version="$(nvm version)"
-  local nvmrc_path="$(nvm_find_nvmrc)"
-
-  if [ -n "$nvmrc_path" ]; then
-    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-    if [ "$nvmrc_node_version" = "N/A" ]; then
-      nvm install
-    elif [ "$nvmrc_node_version" != "$node_version" ]; then
-      nvm use
-    fi
-  elif [ "$node_version" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
-}
-
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
-
-# fnm detect and use node versions on cd
+# Tool integrations
 if command -v fnm >/dev/null 2>&1; then
   eval "$(fnm env --use-on-cd)"
 fi
 
-# Starship
 if command -v starship >/dev/null 2>&1; then
   eval "$(starship init zsh)"
 fi
+
+# History configuration
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=100000
+SAVEHIST=$HISTSIZE
+
+# Shell behavior
+setopt auto_cd # Change directories by typing the directory name.
+setopt auto_list # Show completion choices on ambiguous matches.
+setopt auto_menu # Enter menu completion automatically.
+setopt always_to_end # Move the cursor to the end after a unique completion.
+setopt hist_ignore_all_dups # Remove older duplicate history entries.
+setopt hist_reduce_blanks # Trim extra blanks from saved history entries.
+setopt inc_append_history # Write commands to history as soon as they are entered.
+setopt share_history # Share command history across shell sessions.
+setopt correct_all # Correct command line spelling mistakes.
+setopt interactive_comments # Allow comments in interactive shells.
